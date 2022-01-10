@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <?php $sistema = info_header_footer(); ?>
+
+        <title><?php echo $sistema->sistema_site_titulo . '&nbsp|&nbsp' . (isset($titulo) ? $titulo : 'Não deixe de anunciar' ); ?></title>
+
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/web/assets/css/bootstrap.min.css'); ?>">
+
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/web/assets/css/style.css'); ?>">
+
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/web/assets/css/LineIcons-free.css'); ?>">
+
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/web/assets/fonts/line-icons.css'); ?>">
+
+        <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/web/assets/css/slicknav.css'); ?>">
+
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/web/assets/css/color-switcher.css'); ?>">
+
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/web/assets/css/animate.css'); ?>">
+
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/web/assets/css/owl.carousel.css'); ?>">
+
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/web/assets/css/main.css'); ?>">
+
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/web/assets/css/responsive.css'); ?>">
+
+
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('public/web/assets/autocomplete/jquery-ui.css'); ?>">
+        
+        <link rel='shortcut icon' type='image/x-icon' href='<?php echo base_url('public/restrita/assets/img/favicon.ico'); ?>' />
+
+        <link href='<?php echo base_url('public/web/assets/lib/main.css'); ?>' rel='stylesheet' />
+
+        <script src='<?php echo base_url('public/web/assets/lib/main.js'); ?>'></script>
+
+   
+        <?php if (isset($styles)): ?>
+
+            <?php foreach ($styles as $estilo): ?>
+
+                <link rel="stylesheet" href="<?php echo base_url('public/restrita/' . $estilo); ?>">
+
+            <?php endforeach; ?>
+
+        <?php endif; ?>
+
+
+        <style>
+
+            #DataTables_Table_0_length{
+                margin-left: 17px;
+            }
+
+            #DataTables_Table_0_length .form-control{
+                padding: 0;
+                padding-left: 10px;
+            }
+
+            .select2-container--default .select2-selection--single {
+                border: 1px solid #e5e5e5;
+                border-radius: 4px;
+                font-weight: 400;
+            }
+
+            .select2-container .select2-selection--single {
+                height: 38px; 
+            }
+
+            .select2-container--default .select2-selection--single .select2-selection__rendered {
+                line-height: 38px;
+            }
+
+            .select2-container--default .select2-selection--single .select2-selection__arrow {
+                top: 5px;
+            }
+
+            @media screen and (max-width: 360px) {
+                
+                .featured-box img{
+                    width: 100% !important;
+                }
+               
+                
+            }
+
+
+
+
+
+        </style>
+
+
+    </head>
+    <body>

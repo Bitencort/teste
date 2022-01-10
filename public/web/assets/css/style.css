@@ -1,0 +1,74 @@
+* {
+	font-family: 'Arial';
+}
+
+/*SOBRE */
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #f79234;
+}
+
+.caixa i {
+	color: #f79234;
+}
+
+.cor-principal {
+	color: #f79234;
+}
+
+
+.navbar {
+	padding: 5px!important;
+	height: 120px!important;
+}
+
+/*imagem banner*/
+
+
+
+
+/*BOTAO WHATSAPP */
+
+
+.whatsapp-link {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 1000;
+}
+
+.botoes-home {
+   font-size: 40px!important;
+   line-height: 80px;
+}
+
+@media(min-width:320px) and (max-width:568px){
+
+   .botoes-home {
+   	 font-size: 14px!important;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
